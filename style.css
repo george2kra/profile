@@ -24,15 +24,21 @@ h1.profile {
 }
 p.profile {
   border: 3px solid darkblue;
-  padding: 2%;
+  padding: 2% 2% 2% 2%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+p.aboutme {
+  border: 3px solid darkblue;
+  padding: 2% 2% 25% 2%;
   margin-bottom: 5px;
   font-weight: bold;
 }
 a {
-  color: #ffffff;
+  color: white;
 }
 a:visited {
-  color: #ffffff;
+  color: white;
 }
 
 .row:after {
