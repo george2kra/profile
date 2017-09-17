@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 img.aboutmeimg{
-  width: 50px;
+  width: 70px;
   height: auto;
   border: 1px solid darkblue;
   text-align: center;
@@ -278,9 +278,9 @@ span {
 }
 
 @keyframes sidetoside{
-  0% { left: 5%; opacity: 0.5;}
+  0% { left: 3%; opacity: 0.5;}
  40% { opacity: 1;}
-100% { left: 75%; opacity: 0.5; }
+100% { left: 60%; opacity: 0.5; }
 }
 .shoutout {
   padding: 10px;  /* places text ?px from all four sides  */
