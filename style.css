@@ -28,6 +28,10 @@ p.profile {
   margin-bottom: 5px;
   font-weight: bold;
 }
+.aboutme {
+  color: darkblue;
+  font-size: 1.3em;
+}
 p.aboutme {
   border: 3px solid darkblue;
   padding: 2% 2% 25% 2%;
