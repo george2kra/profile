@@ -14,11 +14,18 @@
   <div class="row">
 
     <div class="col-3 col-s-3 menu">
-      <h1 class="menu"> My Links: </h1>
-      <ul>
+      <h1> My Links:
+        <button class="hamburger">&#9776;</button> <!-- &#9776 Unicode hamburger menu -->
+        <button class="cross">&#88;</button> <!-- &#88 Unicode for X -->
+      </h1>
+      <ul class="linkMenu" >
         <li> <a href='#showprofile'> Profile </a> </li>
         <script language="JavaScript" src="content.js"></script>
       </ul>
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+      <script src="js/index.js"></script>
+      <!--
+      -->
     </div>
 
     <div class="col-6 col-s-9">
@@ -26,7 +33,8 @@
       <p class="profile">
         Hello, My name is George and I am aspiring to become a full stack Web App Developer.
         <br /> <br />
-        My coding is my passion, I like seeing my code comes alive and watch it do great things.
+        My coding is my passion, I like seeing my code comes alive and watch it do great things,
+        I approach each task with energy and creativity.
         <br /> <br />
         I am progressively building my skill sets, they currently include HTML5, CSS3, Ruby on Rails,
         Javascript, Node.js, Express.js, React.js, MongoDB, and Postgres.
@@ -48,15 +56,18 @@
 
     <div class="col-3 col-s-12">
       <div class="menu">
-        <h1 class="menu"> Projects: </h1>
-        <ul>
+
+        <h1>  Projects:
+          <button class="hamburger">&#9776;</button> <!-- &#9776 Unicode hamburger menu -->
+          <button class="cross">&#88;</button> <!-- &#88 Unicode for X -->
+        </h1>
+        <ul class="linkMenu" >
           <script language="JavaScript" src="projlist.js"></script>
         </ul>
       </div>
     </div>
 
   </div>
-
 
   <div class="shoutout">
     <p class="footer"> <a href="aboutme.html"> Click here to know more About Me </a> </p>

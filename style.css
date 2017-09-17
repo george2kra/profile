@@ -113,6 +113,65 @@ html {
   text-align: center;
   font-size: 1.5em;
 }
+/* the hamburger menu styling*/
+.hamburger{
+  background: none;
+  position: relative;
+  /* top:0; */
+  /* right:0; */
+  /* line-height:150%; */
+  padding:1px 1px 1px 1px;
+  color: darkblue;
+  border:0;
+  font-size: 2em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:100; /* higher number will overlay the hamburger image over text*/
+}
+.cross{
+  background: none;
+  position: relative;
+  /* top: 0px; */
+  /* right:0px; */
+  padding: 1px 1px 1px 1px;
+  color: darkblue;
+  border:0;
+  font-size:2.3em;
+  /* line-height:65px; */
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:100;
+}
+.linkMenu ul {
+    list-style-type: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.linkMenu li {
+    padding: 15px;
+    margin-bottom: 7px;
+    background-color: darkblue;
+    color: #ffffff;
+    border-radius:5px;
+    box-shadow: 10px 3px 5px grey, 0px 1px 2px darkblue;
+}
+.linkMenu li:hover {
+    color: darkblue;
+    background-color: lightgrey;
+    box-shadow: 10px 3px 5px grey, 0px 1px 2px darkgrey;
+}
+.linkMenu h1 {
+  background-color: white;
+  padding: 15px;
+  color: darkblue;
+  text-align: center;
+  font-size: 1.5em;
+}
+
 .aside {
     background-color: darkblue;
     padding: 15px;
@@ -200,7 +259,7 @@ span {
 @keyframes fliponY{
     0% { transform: rotateY(0); }
    25% { transform: rotateY(45deg); }
-   50% { transform: rotateY(90deg); background: silver;}
+   50% { transform: rotateY(90deg); background: lightblue;}
    75% { transform: rotateY(135deg); background: gray;}
   100% { transform: rotateY(180deg);  }
 }
@@ -211,7 +270,7 @@ span {
   width: auto; /* this value sets the circle width on x axis  */
   height: auto; /* this value sets the circle height on y axis-like an egg */
   animation-name: sidetoside;  /* fliponY pointer reference to @keyframes spin */
-  animation-duration: 4s;  /* rotates for ? seconds */
+  animation-duration: 6s;  /* rotates for ? seconds */
   animation-direction: alternate; /* alternate between clock and anti wise */
   animation-iteration-count: infinite;  /* will spin indefinetely */
   vertical-align: middle;
@@ -230,7 +289,7 @@ span {
   width: fit-content; /* this value sets the circle width on x axis  */
   height: auto; /* this value sets the circle height on y axis-like an egg */
   animation-name: fonttofont;  /* fliponY pointer reference to @keyframes spin */
-  animation-duration: 8s;  /* rotates for ? seconds */
+  animation-duration: 9s;  /* rotates for ? seconds */
   animation-direction: alternate; /* alternate between clock and anti wise */
   animation-iteration-count: infinite;  /* will spin indefinetely */
   vertical-align: middle;
